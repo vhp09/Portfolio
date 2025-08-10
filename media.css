@@ -1,3 +1,66 @@
+/* ================== Landing Page Responsive Styles ================== */
+@media (max-width: 768px) {
+    .background-text {
+        font-size: 14vw;
+    }
+
+    .typewriter h1 {
+        font-size: 6vw;
+        letter-spacing: 0.5vw;
+    }
+
+    .search-container {
+        padding: 1.5vw 3vw;
+        border: 0.5vw solid #444;
+        border-radius: 6vw;
+        min-height: 8vw;
+    }
+}
+
+@media (max-width: 480px) {
+    .background-text {
+        font-size: 18vw;
+    }
+
+    .typewriter h1 {
+        font-size: 7vw;
+        letter-spacing: 0.5vw;
+    }
+
+    .search-container {
+        padding: 2vw 4vw;
+        border: 0.6vw solid #444;
+        border-radius: 7vw;
+        min-height: 9vw;
+    }
+}
+
+/* ================== Landing Page Animations ================== */
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: #FF6B6B;
+    }
+}
+
+
+/* Portfolio Media Queries */
+
 @media screen and (max-width: 1400px) {
     #profile {
         height: 83vh;
