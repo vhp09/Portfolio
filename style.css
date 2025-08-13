@@ -525,3 +525,32 @@ footer {
 footer p {
     text-align: center;
 }
+
+/* WORK HISTORY SECTION */
+#work-history {
+    position: relative;
+}
+
+#work-history .company-name {
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin-bottom: 0.3rem;
+}
+
+#work-history .position-name {
+    font-size: 1rem;
+    color: rgb(85, 85, 85);
+    margin-bottom: 0.8rem;
+}
+
+#work-history .job-description {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+    /* tab indent */
+    text-align: left;
+    color: rgb(85, 85, 85);
+}
+
+#work-history .job-description li {
+    margin-bottom: 0.3rem;
+}

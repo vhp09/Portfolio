@@ -188,3 +188,24 @@
         text-align: justify;
     }
 }
+
+
+@media screen and (max-width: 1200px) {
+    #work-history .about-containers {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #work-history .company-name {
+        font-size: 1.1rem;
+    }
+
+    #work-history .position-name {
+        font-size: 0.95rem;
+    }
+
+    #work-history .job-description {
+        font-size: 0.95rem;
+    }
+}
